@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Example01 - ARM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="text2">New Text Box</string>
+    <string name="btnText">Push Me!</string>0
+    <string name="btnPressed">I Pressed the Button in Java!</string>
+    <string name="action_settings">Settings</string>
+</resources>
