@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="end"
+    tools:context=".MainActivity">
+
+    <!--
+    android:gravity="end"
+    -->
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:background="#CC00CC"
+        android:id="@+id/textView"
+        android:layout_weight=".25" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text 2"
+        android:background="#00AA00"
+        android:id="@+id/textView2"
+        android:layout_weight=".75" />
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#e3e2ad"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="60sp"
+        android:text="gravity" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="start (nothing)"
+        android:layout_margin="5dp"
+        android:textSize="40sp"
+        android:background="#cc0000"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:background="#00cc00"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="end"
+        android:textColor="#ffffffff"
+        android:textSize="40sp"
+        android:background="#0000cc"
+        android:layout_marginTop="20dp"
+        android:gravity="end"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="center"
+        android:textColor="#ffffffff"
+        android:textSize="40sp"
+        android:background="#cc00cc"
+        android:gravity="center"
+        android:id="@+id/textView4"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#d6c6cd"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="60sp"
+        android:text="layout_gravity" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="start (nothing)"
+        android:textSize="40sp"
+        android:background="#cc0000"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:background="#00cc00"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="end"
+        android:paddingStart="50dp"
+        android:textColor="#ffffffff"
+        android:textSize="40sp"
+        android:background="#0000cc"
+        android:layout_gravity="end"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="center"
+        android:textColor="#ffffffff"
+        android:textSize="40sp"
+        android:background="#cc00cc"
+        android:layout_gravity="center"
+        android:id="@+id/textView8"  />
+
+    </LinearLayout>
+</LinearLayout>
