@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="heritage.amcdonald.example07_multipleactivities.AboutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@color/btnDo"
+        android:text="Lorem ipsum dolor sit amet, ne illud eleifend honestatis pro, quod soleat eum ut. Eruditi percipitur qui ea, sint congue te pro, ius dicit mundi repudiare et. Vis id quem aliquam feugait. Essent regione pri an, cu melius tractatos sed, vel numquam consequuntur ne.  Nam et admodum efficiantur, id fuisset tibique vix, sed id tempor eloquentiam. Elit omnesque disputationi et has, malorum bonorum has ex, pri simul principes suscipiantur id. Eloquentiam interpretaris vix no, ne quot feugiat sit. Scripta repudiare theophrastus eam te, vim diam commodo probatus ad, eu dicant singulis duo. Ut ignota timeam oportere vim, qui an populo ridens disputando.  Rebum ornatus aliquando mei eu, ne animal eleifend sea. An fastidii invidunt platonem has. Usu ut illum habemus persecuti, latine honestatis quaerendum eu vix, molestiae adolescens per ex. Apeirian salutandi mea an, sit commodo viderer denique ea, at melius pertinacia sea. Reque doctus meliore at mei, sea et option evertitur. "
+        android:id="@+id/tvAbout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return - SHOULD NOT DO THIS"
+        android:textSize="24sp"
+        android:id="@+id/btnReturn"
+        android:layout_below="@+id/tvAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>
