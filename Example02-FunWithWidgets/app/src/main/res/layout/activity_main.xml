@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColour"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strTitle"
+        android:id="@+id/tvTitle"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/txtTitle"
+        android:textSize="@dimen/lrgText"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strBtnTitle"
+        android:id="@+id/btnTitle"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtnSample"
+        android:layout_below="@+id/tvTitle"
+        android:layout_toEndOf="@+id/btnTitle"
+        android:src="@drawable/abc_ic_menu_cut_mtrl_alpha"
+        android:background="@color/txtTitle"
+        android:contentDescription="@string/imgButton" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivSample"
+        android:layout_below="@+id/btnTitle"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/balloon"
+        android:contentDescription="@string/imgView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/namePrompt"
+        android:ems="10"
+        android:id="@+id/etName"
+        android:layout_below="@+id/ivSample"
+        android:textSize="@dimen/lrgText"
+        android:layout_alignParentStart="true" />
+
+    <TextView  android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:id="@+id/tvPrompt"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/txtTitle"
+        android:textSize="@dimen/smallText"
+        android:layout_below="@id/ivSample"
+        android:labelFor="@id/etName"
+        android:gravity="start"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cbValue"
+        android:id="@+id/cbOne"
+        android:layout_below="@+id/etName"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/ibtnSample"
+        android:checked="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cbOne"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rGrpOne">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rdoOne"
+            android:id="@+id/rBtnOne" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rdoTwo"
+            android:id="@+id/rBtnTwo" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rdoThree"
+            android:id="@+id/rBtnThree" />
+    </RadioGroup>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tbtnText"
+        android:id="@+id/tBtnOne"
+        android:layout_above="@+id/rGrpOne"
+        android:layout_toEndOf="@+id/cbOne" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCheck"
+        android:id="@+id/btnCheck"
+        android:layout_alignTop="@+id/tBtnOne"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

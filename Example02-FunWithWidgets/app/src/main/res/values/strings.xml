@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Example 02 - Widget Fun</string>
+
+    <string name="strTitle">Different Widgets</string>
+    <string name="strNewTitle">Changed Title</string>
+    <string name="strBtnTitle">Change Title</string>
+    <string name="action_settings">Settings</string>
+    <string name="imgView">Balloon</string>
+    <string name="imgButton">Scissors</string>
+    <string name="namePrompt">Enter name</string>
+    <string name="name">Name:</string>
+    <string name="cbValue">Check It!</string>
+    <string name="btnCheck">Check Boxes</string>
+    <string name="rdoOne">Radio One</string>
+    <string name="rdoTwo">Radio Two</string>
+    <string name="rdoThree">Radio Three</string>
+    <string name="tbtnText">Toggle</string>
+</resources>
