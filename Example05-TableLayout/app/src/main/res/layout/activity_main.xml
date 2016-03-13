@@ -1,0 +1,85 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*" 
+    android:background="#ffffffff">
+
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:id="@+id/tr01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv00"
+            android:layout_width="match_parent" 
+            android:layout_height="300dp"
+            android:textSize="18dp" 
+            android:text="Row 1"  
+            android:layout_span="3"
+            android:padding="18dp" 
+            android:background="#b0b0b0"
+            android:textColor="#000"/>
+
+    </TableRow>
+
+    <!-- Row 2 with 3 columns -->
+    <TableRow
+        android:id="@+id/tr02"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/tv01"
+            android:text="Row 2 column 1"
+            android:layout_weight="1"
+            android:layout_height="300dp"
+            android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:padding="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv02"
+            android:text="Row 2 column 2"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:padding="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv03"
+            android:text="Row 2 column 3"
+            android:layout_weight="1"
+            android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="20dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv04"
+            android:text="Row 3 column 1"
+            android:layout_weight="1"
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="18dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv05"
+            android:text="Row 3 column 2"
+            android:layout_weight="1"
+            android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="18dp"
+            android:gravity="center"/>
+    </TableRow>
+
+</TableLayout>
