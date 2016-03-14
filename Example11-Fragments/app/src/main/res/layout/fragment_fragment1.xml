@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lvFrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgBlue"
+    android:orientation="vertical"
+    android:textColor="@color/fgWhite" >
+
+    <ListView
+        android:id="@+id/hero_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="false"/>
+
+</LinearLayout>
