@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Example14-SQLite2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_header">Add New Label</string>
+    <string name="btnText">Add Item</string>
+
+</resources>
