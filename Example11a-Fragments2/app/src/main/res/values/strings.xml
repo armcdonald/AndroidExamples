@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Example11a-Fragments2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello from fragment 1</string>
+    <string name="hello2">Hello from fragment 2</string>
+    <string name="title_activity_fragment_fill">Fill In Fragment In Portrait Mode</string>
+</resources>
