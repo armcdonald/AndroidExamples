@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="In Landscape Mode"
+        android:textSize="60sp"
+        android:id="@+id/textView" />
+
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Make Toast"-->
+        <!--android:background="#226678"-->
+        <!--android:id="@+id/btnToast"-->
+        <!--android:layout_below="@+id/editText5"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="@dimen/activity_vertical_margin" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Make Alert"-->
+        <!--android:id="@+id/btnAlert"-->
+        <!--android:background="#667822"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="@dimen/activity_vertical_margin" />-->
+
+
+</LinearLayout>
