@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="500"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/refresh"/>
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/add"/>
+    <item
+        android:id="@+id/action_tryit"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_tryit"
+        android:title="@string/tryit"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/action_3"
+        android:orderInCategory="150"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_computer"
+        android:title="@string/three"/>
+
+    <item
+        android:id="@+id/action_2"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_gamepad"
+        android:title="@string/two"/>
+
+</menu>

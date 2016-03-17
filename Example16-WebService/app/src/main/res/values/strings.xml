@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Example16 - Web Service Call</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="CtoF">Celsius to Fahrenheit</string>
+    <string name="ConvToF">Convert to Fahrenheit</string>
+
+</resources>
